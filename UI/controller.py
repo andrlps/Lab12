@@ -41,7 +41,7 @@ class Controller:
             self._view.txt_result.controls.append(ft.Text("Selezionare un anno e un retailer prima di procedere alla creazione del grafo.", color="red"))
             self._view.update_page()
             return
-        if self._model.getVolumeVendita() is None>
+        if self._model.getVolumeVendita() is None:
             self._view.txt_result.controls.append(
                 ft.Text("Procedere alla creazione del grafo.", color="red"))
             self._view.update_page()
