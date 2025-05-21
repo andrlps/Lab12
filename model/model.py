@@ -33,5 +33,10 @@ class Model:
         volume.sort(key = lambda x:x[1], reverse=True)
         return volume
 
-    def percorso(self):
+    def percorso(self, n):
         pass
+
+    def ricorsione(self, n, parziale, rimanenti):
+        pass
+
+
